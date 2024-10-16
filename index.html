@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfoli</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- animation(animate.style) -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+
+    <!-- AOS animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <img class="logo" src="./images/eagle-logo-design-free-logo-removebg-preview.png" alt="no img">
+            <ul>
+                <li class="list-items"><a class="links" href="#home-content">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+
+        <!-- home -->
+         <section>
+            <div class="home-content">
+               <h1 class="animate__animated animate__slideInDown" id="username">I'm Maria <span id="lname">Joe</span></h1> 
+               <p id="user-details">This is my official portfolio website to describe all <br>details and work exporience in web development</p>
+               <a id="downlode" href="./images/Aravind KA Resume.pdf" download>Downlode CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg-final.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final.png" alt="girl">
+            </div>
+
+         </section>
+
+        <!-- about -->
+         <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+           <div class="aboutbody">
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="aboutimage">
+                    <img class="img1" src="https://img.freepik.com/free-vector/flat-illustrated-about-me-concept_52683-59107.jpg" alt="no img">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti quisquam similique, molestias hic dolore error. Illo quaerat quae sapiente doloribus! Dolor accusantium id, veniam delectus obcaecati numquam accusamus incidunt!</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8590644739</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abc@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+         </section>
+
+        <!-- skill  -->
+         <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontents">
+                <div class="progressbars">
+                    <!-- bar -->
+                     <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">84%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"  class="htmlbar basebar"></div>
+                     </div>
+                     <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">79%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="cssbar basebar"></div>
+                     </div>
+                     <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">70%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="jsbar basebar"></div>
+                     </div>
+                     <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">85%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="reactbar basebar"></div>
+                     </div>
+                </div>
+                <div data-aos="zoom-out-right" class="skillimage">
+                    <img width="600px" src="https://cdn.elearningindustry.com/wp-content/uploads/2019/10/7-Benefits-That-Highlight-The-Importance-Of-Soft-Skills-In-The-Workplace.png" alt="no img">
+                </div>
+            </div>
+            
+            
+         </section>
+
+        <!--contact  -->
+         <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollections">
+                <!-- linkdin -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                 <!-- github -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                  <!-- twitter -->
+                   <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                   <!-- whatsapp -->
+                   <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                  <!-- instagram -->
+                  <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                   <!-- facebook -->
+                   <div class="icon">
+                    <a href="https://www.linkedin.com/in/aravind-ka/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+
+            </div>
+         </section>
+        <!-- footer -->
+         <footer>
+            <p id="copywrite">&copy; My portfolio Website -June 2024, All Rigthsreserved </p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-arrow-up"></i></a>
+             </div>
+         </footer>
+    </div>
+</body>
+<!-- AOS javascript(scroll animation) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
